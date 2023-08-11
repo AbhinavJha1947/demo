@@ -29,6 +29,7 @@ export class UserRegistrationComponent implements OnInit {
       firstName:['', Validators.required],
       lastName:['', Validators.required],
       userName:['', Validators.required],
+      contactdetails:['', Validators.required],
       email:['', Validators.required],
       password:['', Validators.required]
     })
@@ -61,7 +62,7 @@ export class UserRegistrationComponent implements OnInit {
         })
       })
     } else {
-      ValidateForm.validateAllFormFields(this.signUpForm); //{7}
+      ValidateForm.validateAllFormFields(this.signUpForm); 
     }
   }
 

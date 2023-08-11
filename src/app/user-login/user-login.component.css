@@ -1,144 +1,76 @@
-/* login.component.css 
-
-.login-container {
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 95vh;
+}
+form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 10px;
     justify-content: center;
-    height: 100vh;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-  }
-  
-  label, input {
-    margin: 10px;
-  }
-  
-  .forget-password {
-    margin-top: 10px;
-    color: #007bff; 
-  }
-  
-  .login-button {
-    margin-top: 20px;
-    background-color: green;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
+}
+form input{
+    width: 210px;
+    padding: 15px;
+    outline: none;
     border: none;
-    cursor: pointer;
-  }
-  
-  .signup-link {
-    margin-top: 20px;
-  }
-  
-  .signup-link span {
-    margin-right: 5px;
-  }
-  
-  .login-with-google {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .login-with-google span {
-    margin-bottom: 5px;
-  }
-  
-  .google-login-button {
-    background-color: #db4437; 
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
+    background-color:#F1F1F1;
+    border: 2px solid #F1F1F1;
+    color: #B4B4B4;
+}
+p{
+    font-size: 12px;
+    color: #B4B4B4;
+}
+button{
+    width: 250px;
+    padding: 15px;
+    outline: none;
     border: none;
+    background-color: #26A700;
+    color: white;
     cursor: pointer;
-    display: flex;
-    align-items: center;
+}
+button:hover{
+    background-color: #63D640;
+}
+form input:hover{
+    border: 2px solid #D0EFD8;
+    background-color: white;
+    color: #0A004D;
   }
-  
-  .google-login-button img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+  .google{
+      width: 210px;
+      padding: 5px;
+      outline: none;
+      border: none;
+      background-color: white;
+      border: 2px solid #F1F1F1;
+      color: #B4B4B4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
   }
-  */
-
-  /* user-login.component.css */
-
-.login-container {
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
+  a{
+    color: #0A004D;
+    cursor: pointer;
+    text-decoration: none;
 }
-
-.input-group {
-  position: relative;
-  margin-bottom: 15px;
+h3{
+    color: #0A004D;
 }
-
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-.eye-icon {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-
-.login-button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: green;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.forgot-password {
-  text-align: right;
-  margin-bottom: 15px;
-}
-
-.login-with-google {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.google-button {
-  background-color: #db4437;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.no-account {
-  text-align: center;
-  margin-top: 15px;
-}
-
-a {
-  color: green;
+.logo{
+    width: 10px;
 }
